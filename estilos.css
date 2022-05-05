@@ -1,31 +1,18 @@
-.div-model-1{
-  padding: 10px;
-  background: rgb(104, 139, 244);
-  margin: 20px;
-}
-.div-model-2 p{
-  text-align: center;
-  font-size: 70%;
-}
-.div-model-2{
-  width: 150px;
-  height: 60px;
-  padding: 0px;
-  background: rgb(104, 139, 244);
-  margin: 20px;
-  border-radius: 5px;
-  border: solid 1px rgb(23, 206, 145); 
+nav{
+  display: flex;
+  align-content: center;
 }
 
-.center-items{
-  display: flex;
-  justify-content: center;
+ul{
+  list-style-type: none;
 }
-.item{
-  margin: 10px;
+li a{
+  text-decoration: none;
+  font-size: 30px;
+  background: rgb(247, 247, 247);
 }
-.item p{
-  text-align: center;
-  padding: 20px;
-  background: rgb(203, 203, 203);
+
+.icon-edit{
+  font-size: 30px;
+  color: rgb(71, 107, 251);
 }
