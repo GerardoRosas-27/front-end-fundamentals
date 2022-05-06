@@ -1,15 +1,33 @@
-nav{
+.nav-menu{
   display: flex;
-  align-content: center;
+  justify-content: center;
 }
 
-ul{
+.nav-menu ul{
+  display: flex;
   list-style-type: none;
 }
-li a{
+.nav-menu li a{
+  display: block;
   text-decoration: none;
   font-size: 30px;
   background: rgb(247, 247, 247);
+  padding: 10px;
+}
+.nav-menu li a:hover {
+  background: rgb(133, 179, 225);
+}
+
+.nav-menu .ocultar-sub {
+  display: none;
+  padding: 10px;
+}
+.nav-menu .ocultar-sub li{
+  margin: 10px;
+}
+
+.nav-menu ul li a:hover + ul, .nav-menu ul li ul:hover{
+  display: block;
 }
 
 .icon-edit{
