@@ -12,41 +12,102 @@
 </head>
 
 <body>
-    <header>
-        <h1>Enviar formulario</h1>
-        <nav class="nav-menu">
-            <ul>
-                <li>
-                    <a href="index.html">
-                        <span class="material-symbols-outlined icon-edit">
-                            home
-                        </span>
-                        inicio
-                        <ul>
-                            <li><a href="http://">opción 1</a></li>
-                            <li><a href="http://">opción 2</a></li>
-                        </ul>
-                    </a>
-                </li>
-                <li>
-                    <a href="formulario.html">
-                        <span class="material-symbols-outlined icon-edit">
-                            send
-                        </span>
-                        enviar
-                    </a>
-                </li>
-                <li>
-                    <a href="http://">
-                        <span class="material-symbols-outlined icon-edit">
-                            print
-                        </span>
-                        imprimir
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="nav-menu">
+        <ul>
+            <li>
+
+                <a href="index.html">
+                    <span class="material-symbols-outlined icon-edit">
+                        home
+                    </span>
+                    inicio
+                </a>
+                <ul class="ocultar-sub">
+                    <li>
+                        <a href="http://">opción 1</a>
+                    </li>
+                    <li>
+                        <a href="http://">opción 2</a>
+                    </li>
+                </ul>
+
+            </li>
+            <li>
+                <a href="formulario.html">
+                    <span class="material-symbols-outlined icon-edit">
+                        send
+                    </span>
+                    enviar
+                </a>
+            </li>
+            <li>
+                <a href="http://">
+                    <span class="material-symbols-outlined icon-edit">
+                        print
+                    </span>
+                    imprimir
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>datos del usario</h1>
+    <form>
+        <label>nombre</label>
+        <input maxlength="10" type="text">
+        <br>
+        <br>
+        <label>edad</label>
+        <input type="number">
+        <br>
+        <br>
+        <label>Gustos</label>
+        <br>
+        <textarea maxlength="5" name="" id="" cols="30" rows="10">
+        </textarea>
+        <br>
+        <br>
+        <p>sexo</p>
+
+        <label>M</label>
+        <input type="radio" name="opcion0" id="">
+        <label>F</label>
+        <input type="radio" name="opcion0" id="">
+        <br>
+        <p>Lista de tareas</p>
+        <ul>
+            <li> 
+                <label>comprar pan</label>
+                <input type="checkbox" name="" id="">
+            </li>
+            <li> <label>comprar jugo</label>
+                <input type="checkbox" name="" id="">
+            </li>
+            <li>
+                <label>comprar coca</label>
+                <input type="checkbox" name="" id="">
+            </li>
+        </ul>
+
+        <p>tipo de persona</p>
+        
+        <select name="" id="">
+            <option value="1">opción1</option>
+            <option value="2">opción2</option>
+            <option value="3">opción3</option>
+        </select>
+        <br>
+        <input type="date" name="" id="">
+        <br>
+        <input type="color" name="" id="">
+        
+        <input type="file" name="" id="">
+
+
+    </form>
+
+
+
 
 </body>
 
